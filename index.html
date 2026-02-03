@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крякунов Даниил - Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Даниил<span>.dev</span></a>
+                <button class="hamburger" id="hamburger">☰</button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#hero" class="active">Главная</a></li>
+                    <li><a href="#education">Образование</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content animate">
+                <div class="profile-img">ДК</div>
+                <h1>Крякунов Даниил</h1>
+                <div class="subtitle">Начинающий фронтенд-разработчик</div>
+                <div class="contact-info">
+                    <div class="contact-item">📍 г. Череповец, Россия</div>
+                    <div class="contact-item">✉️ kr.daniil.work@gmail.com</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Образование</h2>
+            </div>
+            <div class="education-card animate delay-1">
+                <h3>Череповецкий металлургический колледж</h3>
+                <p>г. Череповец</p>
+                <p class="date">2 курс специальности "Информационные системы и программирование"</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Проекты</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate delay-1">
+                    <div class="project-content">
+                        <h3>Дашборд с виджетами</h3>
+                        <p>SPA на React с виджетами и интеграцией с внешними API</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS/Tailwind</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Web-Zhaba/react-dashboard-app" class="project-link code-link">Код</a>
+                            <a href="https://web-zhaba.github.io/react-dashboard-app/" class="project-link demo-link">Демо</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate delay-2">
+                    <div class="project-content">
+                        <h3>Одностраничный лендинг</h3>
+                        <p>Адаптивная верстка по макету в Figma с пиксель-перфект реализацией</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">GitHub</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Web-Zhaba/Building-Company" class="project-link code-link">Код</a>
+                            <a href="https://web-zhaba.github.io/Building-Company/" class="project-link demo-link">Демо</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other-projects animate delay-3">
+                <p>И другие проекты (подробнее на GitHub)</p>
+                <a href="https://github.com/Web-Zhaba" target="_blank">Посмотреть все проекты →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Навыки</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skills-card animate delay-1">
+                    <h3>Технологии</h3>
+                    <div class="skills-list">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Postman</span>
+                    </div>
+                </div>
+                <div class="skills-card animate delay-2">
+                    <h3>Языки</h3>
+                    <div class="languages-grid">
+                        <div class="language-item">Русский</div>
+                        <div class="language-item">Английский</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-title animate">
+                <h2>Свяжитесь со мной</h2>
+            </div>
+            <div class="contact-details animate delay-1">
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span> kr.daniil.work@gmail.com
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span> г. Череповец, Россия
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">💻</span> <a href="https://github.com/Web-Zhaba" target="_blank">GitHub Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>2026 Крякунов Даниил</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
